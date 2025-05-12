@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Game Explorer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<!-- Game Detail Modal -->
+<div id="gameModal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn">&times;</span>
+    <div id="modal-details"></div>
+  </div>
+</div>
+<body>
+  <div id="splash-screen">
+  <h1 class="splash-title">🎮 Game Explorer</h1>
+</div>
+  <header>
+    <h1>Game Explorer</h1>
+    <form id="search-form">
+      <!-- Recent searches will appear here -->
+<div id="recent-searches" class="recent-container"></div>
+      <input type="text" id="search-input" placeholder="Search for a game..." />
+      <button type="submit">Search</button>
+    </form>
+  </header>
+
+  <main id="game-container"></main>
+  <script src="script.js"></script>
+<div id="gameModal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn">&times;</span>
+    <div id="modal-details"></div>
+  </div>
+</div></body>
+</html>
